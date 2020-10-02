@@ -21,4 +21,4 @@ const hideNo = () => {
 
 no.addEventListener("mouseenter", hideNo, false);
 no.addEventListener("click", () => dijoNo.style.display = "block");
-si.addEventListener("click", () => dijoYes.style.display = "block");
+si.addEventListener("click", () => {dijoYes.style.display = "block"; dijoNo.style.display = "none"});
