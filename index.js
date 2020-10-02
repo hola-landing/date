@@ -15,7 +15,7 @@ const hideNo = () => {
     no.style.top = randomy + "px";
     if(counter == 3){
         no.removeEventListener("mouseenter", hideNo);
-        no.style.position = "relative";
+        no.style.position = "static";
         no.style.top = null;
         no.style.left = null;
     }
